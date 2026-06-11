@@ -11,15 +11,7 @@ str.set_page_config(page_title="Mail Spam Detector", page_icon="🚨", layout="c
 str.title("📩 Automated Email Spam Classifier")
 str.subheader("Client-Ready AI Solution")
 
-# 2. Sidebar - Why Naive Bayes?
-str.sidebar.header("🧠 Technical Insights")
-str.sidebar.markdown("""
-### Why Multinomial Naive Bayes?
-During our development phase, we benchmarked multiple algorithms. **Naive Bayes** consistently emerged as the **most performant algorithm** for this text-classification task due to:
-1. **High Efficiency:** Extremely fast training and real-time inference.
-2. **Text Specialization:** Works exceptionally well with high-dimensional TF-IDF word vectors.
-3. **Probability-Driven:** Outputs exact mathematical confidence levels for transparency.
-""")
+
 
 # 3. Model Training (Safe Extraction)
 
